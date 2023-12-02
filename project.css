@@ -1,0 +1,415 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+
+.main{
+	width:100%;
+	background: linear-gradient(to top , rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+}
+.body{
+	background-image: url(project0.1.jpg);
+	background-position: center;
+	background-size: cover;
+	height:108vh;
+
+}
+.navbar{
+	width: 1200px;
+	height: 75px;
+	margin: auto;
+}
+.icon{
+	width:200px;
+	float: left;
+	height:70px;
+}
+.logo{
+	color:#ff7200;
+	font-size:35px;
+	font-family: Arial;
+	float: left:20px;
+	padding-top:10px;
+	background-image: url(captainlogo.jpeg);	
+}
+.menu{
+	width: 100px;
+	float: left;
+	height: 10px;	
+}
+ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ul li{
+	list-style: none;*/
+	margin-left:20px;*/
+	margin-top: 12px;*/
+	font-size: 14px;*/
+}
+ul li a{
+	text-decoration: none;*/
+	color: #fff;*/
+	font-family:Arial;*/
+	font-weight: bold;*/
+}
+ul li a:hover{
+	color: #ff7200;*/
+}
+.search{
+	width: 330px;
+	float: left;
+	margin-left:300px;
+}
+.srch{
+	font-family: 'Time New Roman';
+	width: 200px;
+	height: 40px;
+	background: transparent;
+	border: 2px solid;
+	margin-top: 15px;
+	color:#fff;
+	border-right: none;
+	font-size: 16px;
+	float: left;
+	padding: 15px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.btn{
+	width: 100px;
+	height: 40px;
+	background: #ff7200;
+	border: 2px solid #ff7200;
+	margin-top: 13px;
+	color:#fff;
+	border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.btn:focus{
+	outline: none;
+}
+.srch:focus{
+	outline: none;
+}
+.content{
+	width:1200px;
+	height: auto;
+	margin:auto;
+	color:#ff0000;
+	position: fixed;
+	bottom:20px;
+	width:200px;
+	border-bottom-left: 5px;
+}
+.content h1{
+	font-family: "Time new roman"
+
+	padding-left:10px;
+}
+        
+
+}
+.content .cn{
+	width:180px;
+	height:40px;
+	background:#ff7200;
+	border: none;
+	/*font-size: 18px;*/
+	margin-left:20px;
+	cursor: pointer; 
+}
+.content .cn a{
+	text-decoration: none;
+	color:#ff7200;
+	transition: .3s ease;
+	font-size: 18px;
+}
+.content .cn a:hover{
+	background-color: #fff;
+	color:#ff7200;
+}
+
+.form{
+	width: 250px;
+	height: 380px;
+	background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+	position: absolute;
+	top:80px;
+	left:850px;
+	border-radius:10px;
+	padding: 25px;		
+}
+.form h2{
+	width:220px;
+	font-size: sans-serif;
+	text-align: center;
+	color:#ff7200;
+	border-radius: 10px;
+	margin: 2px;
+	padding: 8px;
+}	
+.form input{
+	width:180px;
+	height: 30px;
+	background:transparent;
+	border-bottom: 1px solid #ff7200;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	color:#fff;
+	font-size:17px;
+	letter-spacing: 1px;
+	margin-top:30px;
+	font-family: sans-serif;
+}
+.btnn{
+	width: 240px;
+	height: 40px;
+	background: #ff7200;
+	border: none;
+	margin-top: 30px;
+	font-size:18px;
+	border-radius:10px;
+	cursor: pointer;
+	color: #fff;
+}
+.btnn:hover{
+	background:#fff;
+	color:#ff7200;
+}
+.form .link{
+	font-family:Arial;
+	font-size:17px;
+	padding-top:20px;
+	text-align: center;
+}
+.form.link a{
+	text-decoration: none;
+	color: #ff7200;
+}
+.liw{
+	padding-top: 15px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+#sectionnext{
+	background-image:url(project0.2.jpg);
+	background-position: center;
+	background-size: cover;
+	height:108vh;
+	width:100%;
+
+}
+ #sectionnext h2{
+
+ 		text-align: center;
+	    bottom:2000px;
+	    color:#0091D5;
+}
+#sectionnext span{
+	color:#ff8C00;
+}
+#sectionnext h3{
+	width:100vh;
+	height:100%;
+	text-align:left;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	font-size:30px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	text-decoration: #0000;
+}
+.APP h1{
+	color:#0091D5;
+}
+ .APP h3{
+
+ }
+.Jion{
+	color:#ff0000;
+	position: center;
+	bottom:10px;
+	width:100%;
+	text-align: center;
+
+
+}
+.Jion .nc{
+	width:180px;
+	height:40px;
+	background:#ff7200;
+	border: none;
+} 
+.Jion .nc a{
+	text-decoration: none;
+	color: #000;
+	transition:.3s ease;
+
+}
+.nc:hover{
+	background-color: #fff;
+}
+#sectionnext2 h1{
+
+ 		text-align: center;
+	    bottom:2000px;
+	    color:#000000;
+	    padding-top: 60PX;
+	    font-size: 60PX
+
+}
+#sectionnext2 h2{
+
+ 		text-align: center;
+	    bottom:2000px;
+	    color:#484848;
+	    padding-top: 40PX;
+	    font-size: 40PX
+
+}
+
+#sectionnext2 h4{
+
+ 		text-align: center;
+	    bottom:2000px;
+	    color:#A5D8DD;
+	    padding-top: 30PX;
+	    font-size: 20px;
+
+
+}
+#sectionnext2 p{
+
+ 		text-align: center;
+	    bottom:2000px;
+	    color:#0091D5;
+	    font-size: 50px
+	    padding-top:20px;
+}
+.lastpage{
+	background-image:url(projecthtml.jpg);
+	background-position: center;
+	background-size: cover;
+	height:108vh;
+	width:100%;
+}
+.lastpage h1{
+          padding-top:250px;
+          padding-left: 600px;
+          font-size: 40px;
+          color:#488A99;
+}
+.lastpage h2{
+	 padding-top:10px;
+          padding-left:700px;
+          font-size: 40px;
+          color:#ff0000;
+
+}
+.lastpage h5{
+	padding-top:10px;
+	padding-left:780px;
+	font-size:20px;
+	color:#DADADA;	
+}
+.lastpage h5 span{
+	color:#ff0000;
+}
+.Jion1{
+	color:#ff0000;
+	position: center;
+	bottom:10px;
+	width:100%;
+	text-align: center;
+
+
+}
+.Jion1 .nc1{
+	width:180px;
+	height:40px;
+	background:#ff7200;
+	border: none;
+} 
+.Jion1 .nc1 a{
+	text-decoration: none;
+	color: #000;
+	transition:.3s ease;
+
+}
+.nc1:hover{
+	background-color: #fff;
+}
+#sectionnext3{
+	background-color:#484848;
+	background-position: center;
+	background-size: cover;
+	height:40vh;
+	width:100%;
+}
+#sectionnext3.list{
+	color:#ff0000;
+
+}
+#sectionnext3{
+	/*width:100px;*/
+}
+.list{
+     display: flex;
+	justify-content: center;
+}
+.list a{
+	text-decoration: none;
+	padding: 10px;
+	background-color:white;
+	margin:10px;
+	border-radius:50%;
+}
+.list a i{
+	font-size:20px;
+	color:black;
+	opacity: 0.9;
+}
+.list a:hover{
+	background-color:#111;
+	transition:0.5s;
+}
+.list a:hover{
+	color:white;
+	transition: 0.5s;
+}
+.footerNav{
+	/*margin:30px ;*/
+	justify-content:center;
+	text-align: center;
+}
+.footerNav ul li a{
+	color:white;
+	margin:20px;
+	text-decoration: none;
+	font-size:1.3px;
+	opacity: 0.7;
+	transition: 0.5s;
+}
+.footerNav ul li a:hover{
+	opacity: 1;
+}
+.footerbotton{
+	background-color:#000;
+	padding:20px;
+	text-align: center;
+}
+.footerBotton p{
+	color:white;
+}
+.designer{
+	opacity: 0.7;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight:400;
+	margin:0px 5px;
+}
